@@ -1,0 +1,81 @@
+        @media only screen and (max-width: 600px) {
+            .nav-item {
+                padding-right: 0;
+            }
+            .navbar-brand img {
+                width: 50px;
+            }
+            #jumbotron {
+                height: 600px;
+            }
+            .jumbotron h1 {
+                font-size: 40px;
+            }
+            .jumbotron p {
+                font-size: 30px;
+            }
+            .button {
+                width: 70%;
+                justify-content: space-between;
+            }
+            .call-me,
+            .about-me {
+                height: 40px;
+                font-size: 16px;
+            }
+            .wave img {
+                top: 550px;
+            }
+            .burger {
+                cursor: pointer;
+                display: block;
+            }
+            .nav-item .nav-link {
+                text-align: center;
+            }
+            .sejarah p {
+                text-align: start;
+                font-size: 17px;
+            }
+            .visi-misi .card {
+                padding-bottom: 40px;
+                height: 655px;
+                margin-top: 40px;
+            }
+            .card p {
+                text-align: start;
+                font-size: 17px;
+            }
+            .card .misi li {
+                text-align: start;
+                font-size: 17px;
+            }
+            .jasa ul li {
+                text-align: start;
+                font-size: 17px;
+            }
+            .dropdown-item {
+                padding: 5px;
+            }
+            #blog-content-article {
+                margin-top: 50px;
+            }
+        }
+        
+        @media only screen and (max-width: 376px) {
+            .button {
+                width: 100%;
+                justify-content: space-between;
+            }
+            .call-me,
+            .about-me {
+                height: 35px;
+                font-size: 13px;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .burger {
+                display: none;
+            }
+        }

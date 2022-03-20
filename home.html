@@ -1,0 +1,830 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- split -->
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS -->
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- swiper -->
+
+    <!-- lightbox -->
+    <link rel="stylesheet" href="assets/lightbox/dist/css/lightbox.min.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Tasa Gis</title>
+
+    <style>
+        #active {
+            color: #1A237E;
+            font-weight: 450;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/logo.png" alt="">
+            </a>
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+
+            <div class="burger" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="line1"></div>
+                <div class="line2 "></div>
+                <div class="line3 "></div>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto" id="myDIV">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="active" href="#">Home </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Servies
+              </a>
+                        <div class="dropdown-menu animate-menu slideIn-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="">Jasa Pemetaan Gis</a>
+                            <a class="dropdown-item" href="">Jasa Pembuatan Web Gis</a>
+                            <a class="dropdown-item" href="#">Jasa Survey</a>
+                            <a class="dropdown-item" href="#">Jasa Analisa Spasial</a>
+                            <a class="dropdown-item" href="#">Jasa Arsitektur/Design </a>
+                            <a class="dropdown-item" href="#">Jasa Topografi </a>
+                            <a class="dropdown-item" href="#">Jasa Hidrologi/Oseanografi </a>
+                            <a class="dropdown-item" href="#">Jasa Foto Udara Drone </a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#galery">Galeri</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#contack">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- navbar -->
+
+    <!-- jumbotron -->
+
+    <div class="jumbotron jumbotron-fluid" id="jumbotron">
+
+        <span class="jumbotron-cover">
+            <div class="container">
+
+                <h1 class="display-4 animate__animated animate__zoomIn" >TASA-GIS </h1>
+                <p class="title-jasa animate__animated animate__zoomIn">Jasa Bidang Geospasial (pemetaan) <br>dan Website (WebGis)</p>
+
+                <div class="button">
+
+                    <a href="" class="call-me btn btn-lg animate__animated animate__zoomIn ">Hubungi Kami</a>
+                    <a href="#sejarah" class="about-me btn btn-lg animate__animated animate__zoomIn">Tentang Kami</a>
+
+
+                </div>
+
+            </div>
+        </span>
+        <span class="wave"><img src="assets/wave.png" alt=""></span>
+
+
+    </div>
+
+
+
+    <section class="bekerja-sama">
+        <div class="container">
+            <h2 class="text-center" style="margin-top: 200px; margin-bottom: 50px;">Bekerja Sama</h2>
+
+
+            <div class="row">
+                <div class="col-3 col-md-3 col-sm-3 col-6 mt-4">
+                    <div class="card" style="border-radius: 0;">
+                        <center>
+                            <img src="assets/logo-polnep-pontianak.png" alt="" class="mt-5">
+                        </center>
+
+                    </div>
+
+                </div>
+                <div class="col-3 col-md-3 col-sm-3 col-6 mt-4">
+                    <div class="card" style="border-radius: 0;">
+                        <center>
+                            <img src="assets/logo-polnep-pontianak.png" alt="" class="mt-5">
+                        </center>
+
+                    </div>
+
+                </div>
+                <div class="col-3 col-md-3 col-sm-3 col-6 mt-4">
+                    <div class="card" style="border-radius: 0;">
+                        <center>
+                            <img src="assets/logo-polnep-pontianak.png" alt="" class="mt-5">
+                        </center>
+
+                    </div>
+
+                </div>
+                <div class="col-3 col-md-3 col-sm-3 col-6 mt-4">
+                    <div class="card" style="border-radius: 0;">
+                        <center>
+                            <img src="assets/logo-polnep-pontianak.png" alt="" class="mt-5">
+                        </center>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+    <section class="sejarah" id="sejarah">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6" data-aos="zoom-in" data-aos-delay="300">
+                    <h2>Tasa Gis</h2>
+                    <p>TASA_GIS merupakan STARTUP Jasa Bidang Geospasial (pemetaan) dan Website (WebGis) merupakan paket produk. TASA-GIS selain printout peta produk tasa-gis dapat di kontrol melalui android secara online dengan sasaran pelanggan yang berbasis
+                        subscribe yaitu pemerintahan (instansi) dan individual (swasta) yang membutuhkan jasa TASA-GIS.</p>
+                </div>
+
+                <div class="col-md-6 col-sm-6" data-aos="zoom-in" data-aos-delay="100">
+                    <center>
+                        <img src="assets/Group 2 1.png" alt="">
+                    </center>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="visi-misi">
+        <h2 class="text-center">Visi Dan Misi Tasa Gis</h2>
+        <div class="container">
+            <br><br>
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="card " data-aos="fade-down" data-aos-duration="1000">
+                        <center>
+                            <img src="assets/visi.png" alt="">
+                            <h3 class="mt-4">Visi</h3>
+                        </center>
+
+
+                        <div class="card-body">
+                            <p>Menjadi usaha unggulan terkemuka dibidang jasa pemetaan yang mengutamakan pembangunan dan kemajuan indonesia mandiri ke arah melek teknologi</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="card" data-aos-delay="200" data-aos="fade-down" data-aos-duration="1000">
+                        <center>
+                            <img src="assets/misi.png" alt="">
+                            <h3 class="mt-4">Misi</h3>
+                        </center>
+
+
+                        <div class="card-body">
+                            <ul class="misi">
+                                <li>Membantu dalam hal pemetaan dan perencanaan dengan meningkatkan kualitas kawasan.</li>
+
+                                <li>Mengekspost kawasan dan program keberlanjutan kepada khalayak ramai melalui pemetaan, perencanaan dan pembuatan Website</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="services"></div>
+    <section class="jasa">
+        <div class="container">
+            <h2 class="text-center"> Jasa Tasa-Gis Dengan Konsep Geospasial Dan Website</h2>
+            <div class="row mt-5" style="padding-top: 50px; padding-bottom: 50px;" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="col-md-3 col-sm-6">
+                    <center>
+                        <img src="assets/pemetaan.png" alt="">
+                    </center>
+
+                </div>
+
+                <div class="col-md-8 col-sm-6">
+                    <div class="card">
+                        <h3 class="">Pemetaan Peta Tematik</h3>
+
+
+                        <ul>
+                            <li>Peta Batas Wilayah</li>
+                            <li>Peta Potensi</li>
+                            <li>Peta Potensi</li>
+                            <li>Peta Kerentanan Bencana</li>
+                            <li>Legalitas Lahan</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+
+            <div class="row mt-5" style="padding-top: 50px; padding-bottom: 50px;" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="col-md-3 col-sm-6">
+                    <center>
+                        <img src="assets/website.png" alt="">
+                    </center>
+
+                </div>
+
+                <div class="col-md-8 col-sm-6">
+                    <div class="card ">
+                        <h3 class="">Website Desa (Web-Gis)</h3>
+
+
+                        <ul>
+                            <li>Fitur Informasi Profil Desa</li>
+                            <li>Fitur Informasi Profil Desa</li>
+                            <li>Fitur Informasi Statistik dan Pengembangan Desa</li>
+                            <li>Fitur Informasi Statistik dan Pengembangan Desa</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="produk">
+        <span>
+            <h1 class="text-center text-white" style="margin-top: 150px;">Produk Jasa</h1>
+            <p class="text-center text-white">TASA-GIS mengeluarkan produk jasa pemetaan yaitu Peta Tematik dan website Desa</p>
+
+        </span>
+
+
+
+    </section>
+
+
+    <section class="content-produk mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-3">
+                    <div class="card" id="card-produk" data-aos="zoom-in">
+                        <img class="card-img-top" src="assets/produk/Desa alur bandung, banyu abang, mas bangun, teluk batang, teluk batang selatan, teluk batang utara.jpg" alt="Card image cap">
+
+                        <h5 class="card-title text-center">Desa Alur Bandung</h5>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-4 col-sm-3">
+                    <div class="card" id="card-produk" data-aos="zoom-in">
+                        <a href="assets/produk/DESA KARIMUNTING .jpg" data-lightbox="image-1" data-title="My caption">
+                            <img class="card-img-top" src="assets/produk/DESA KARIMUNTING .jpg" alt="Card image cap"></a>
+                        <h5 class="card-title text-center">Desa Karimunting</h5>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-sm-3">
+                    <div class="card" id="card-produk" data-aos="zoom-in">
+                        <img class="card-img-top" src="assets/produk/DESA TEMAJUK.jpg" alt="Card image cap">
+                        <h5 class="card-title text-center">Desa Temajuk</h5>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+    </section>
+
+
+
+
+
+    <section class="portofolio" id="portfolio">
+
+        <!-- Swiper -->
+        <h2 class="text-center text-black" style="margin-top: -70px;">Team</h2>
+        <center>
+            <img src="assets//logo.png" alt="" class="mt-2 mb-4">
+        </center>
+
+        <div class="container" style="padding-bottom: 100px;">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card" id="card-portfolio" data-aos="fade-down">
+                            <center>
+                                <img src="assets/2.png" alt="" class="w-50">
+                            </center>
+                            <h5 class="text-center">Anggita Listra Debby S.Tr. Ars</h5>
+                            <h4>PERENCANAAN</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card" id="card-portfolio" data-aos="fade-down">
+                            <center>
+                                <img src="assets/3.png" alt="" class="w-50">
+                            </center>
+                            <h5 class="text-center">Yuprianto S.Tr. Ars</h5>
+                            <h4>SURVEYOR DAN ANALYSIS</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card" id="card-portfolio" data-aos="fade-down">
+                            <center>
+                                <img src="assets/4.png" alt="" class="w-50">
+                            </center>
+                            <h5 class="text-center">Yulli Artika Sari S.Tr. Ars</h5>
+                            <h4>MARKETING</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card" id="card-portfolio" data-aos="fade-down">
+                            <center>
+                                <img src="assets/5.png" alt="" class="w-50">
+                            </center>
+                            <h5 class="text-center">Michele Valisco, A.Md.Kom</h5>
+                            <h4>PROGRAMMER</h4>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <h2 class="text-center">Project Yang Sudah Di Buat</h2>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <center>
+                        <div class="card-jasa" data-aos="zoom-in">
+
+                            <div class="slide slide1">
+
+                                <div class="content">
+                                    <a href="cobe.html">
+
+                                        <div class="icon">
+
+                                            <img src="assets/produk/DELINASI KAMPUNG SEMAH.jpg" alt="">
+
+                                        </div>
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="slide slide2">
+
+                                <div class="content">
+
+                                    <h3>
+
+                                        Delinasi Kampung Sawah
+
+                                    </h3>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In earum corrupti ipsum odit consequatur. Assumenda ullam non voluptate deserunt eos dolor.</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </center>
+                </div>
+
+
+                <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                    <center>
+                        <div class="card-jasa">
+
+                            <div class="slide slide1">
+
+                                <div class="content">
+                                    <a href="cobe.html">
+                                        <div class="icon">
+
+                                            <img src="assets/produk/DESA TEMAJUK.jpg" alt="">
+
+                                        </div>
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                            </a>
+
+                            <div class="slide slide2">
+
+                                <div class="content">
+
+                                    <h3>
+
+                                        Desa Temajuk
+
+                                    </h3>
+
+
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In earum corrupti ipsum odit consequatur. Assumenda ullam non voluptate deserunt eos dolor.</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </center>
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+        <section class="video">
+            <div class="container">
+                <h2 class="text-center">Vidio</h2>
+                <br>
+                <iframe width="100%" height="480" src="https://www.youtube.com/embed/rmwBmmrasr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+        </section>
+    </section>
+    <div id="galery"></div>
+
+    <section class="galeri">
+        <div class="container">
+            <h2 class="text-center">Galeri</h2>
+            <br>
+
+            <div class="row">
+
+
+                <div class="col-3 col-md-3 col-sm-3 col-6 mt-4">
+
+                    <div class="card" style="border: 0;" id="card-galeri" style="width: 18rem;" data-aos="zoom-in">
+                        <center>
+                            <img class="example-image card-img-top" src="assets/produk/DESA SEBUBUS.jpg" alt="" />
+
+                            <span id="lihat-gambar">
+                                <a class="example-image-link" href="assets/produk/DESA SEBUBUS.jpg" data-lightbox="example-set" data-title="Desa Ini bla bla bla bla"><i class="fa-solid fa-eye"></i></a>
+                            </span>
+
+                        </center>
+
+
+                    </div>
+                </div>
+
+                <div class="col-3 col-md-3 col-sm-3 col-6 mt-4">
+
+                    <div class="card" style="border: 0;" id="card-galeri" style="width: 18rem;" data-aos="zoom-in">
+                        <center>
+                            <img class="example-image card-img-top" src="assets/produk/Desa punggur besar, kalimas, pal sembilan, sungai belidak, punggur kecil, jeruju besar, punggur kapuas, tanjung saleh, sepuk laut.jpg" alt="" />
+
+                            <span id="lihat-gambar">
+                            <a class="example-image-link" href="assets/produk/DESA SEBUBUS.jpg" data-lightbox="example-set" data-title="Desa Ini bla bla bla bla"><i class="fa-solid fa-eye"></i></a>
+                            </span>
+
+                        </center>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="blog" id="blog">
+        <div class="container">
+            <h2 class="text-center">Blog</h2>
+            <div class="row mt-5" data-aos="zoom-in">
+                <div class="col-md-6 col-sm-6 col-lg-6">
+                    <img class="img-thumbnail img-fluid" src="assets/produk/GERBANG MASUK WISATA KAMPUNG SEMAH KAPUAS HULU .jpg" alt="">
+                    <span class="date-blog"><p><i class="fa-solid fa-calendar"></i>  6 Desember 2021 | 3 komentar</p> </span>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-lg-6" id="blog-content-article">
+                    <h3>Why should boys have all the fun? it's the women who are making india an alcohol-loving contry</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas deserunt beatae adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam tenetur a nobis, voluptate, numquam architecto fugit. Eligendi quidem
+                        ipsam ducimus minus magni illum similique veniam tempore unde? </p>
+
+                    <a href="" class="btn" id="btn-blog">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <hr>
+
+
+
+            <div class="row mt-5" data-aos="zoom-in">
+                <div class="col-md-6 col-sm-6 col-lg-6">
+                    <img class="img-thumbnail img-fluid" src="assets/produk/GERBANG MASUK WISATA KAMPUNG SEMAH KAPUAS HULU .jpg" alt="">
+                    <span class="date-blog"><p><i class="fa-solid fa-calendar"></i>  6 Desember 2021 | 3 komentar</p> </span>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-lg-6" id="blog-content-article">
+                    <h3>Why should boys have all the fun? it's the women who are making india an alcohol-loving contry</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas deserunt beatae adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam tenetur a nobis, voluptate, numquam architecto fugit. Eligendi quidem
+                        ipsam ducimus minus magni illum similique veniam tempore unde? </p>
+
+                    <a href="" class="btn" id="btn-blog">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <img src="assets/logo.png" alt="">
+                        </h6>
+                        <p>
+                            TASA_GIS merupakan STARTUP Jasa Bidang Geospasial (pemetaan) dan Website (WebGis) merupakan paket produk.s
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Angular</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">React</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Vue</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Laravel</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Pricing</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Orders</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contact
+                        </h6>
+                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i> info@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(19, 19, 19, 0.05);">
+            TasaGis ©2022 Copyright:
+
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-angle-up"></i></button>
+
+    <!--Start of Tawk.to Script-->
+
+    <!--End of Tawk.to Script-->
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        const burger = document.querySelector('.burger');
+        burger.addEventListener('click', function() {
+            burger.classList.toggle('toggle');
+
+        })
+
+        AOS.init();
+
+
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                },
+            },
+        });
+
+
+
+
+
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 40) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+
+
+    <!-- jumbotron -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous ">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+    <script>
+        // animate loading
+        setTimeout(function() {
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+
+        // animate loading
+    </script>
+
+
+
+    <script src="assets/lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js" integrity="sha512-yFjZbTYRCJodnuyGlsKamNE/LlEaEAxSUDe5+u61mV8zzqJVFOH7TnULE2/PP/l5vKWpUNnF4VGVkXh3MjgLsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous ">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous ">
+    </script>
+
+
+
+
+
+</body>
+
+</html>
